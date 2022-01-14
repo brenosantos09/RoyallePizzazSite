@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    
+    font-family: 'Roboto Mono', monospace;
+}
+
+.logo img{
+    width: 150px;
+}
+
+header{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.material-icons {
+    text-decoration: none;
+    color: rgb(41, 37, 37);
+    font-size: 45px;
+   
+}
+
+.material-icons:hover{
+    color: rgb(255, 255, 255);
+     transform: scale(1.5);
+     transition: 0.3s;
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+ 
+}
+
+nav ul li{
+    margin-left: 10px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0 20px;
+    color: rgb(2, 2, 2);  
+    
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.logo p{
+    font-size: 25px;
+    padding-left: 10px;
+   
+   
+}
+
+/*section--------*/
+
+#banner-slider img{
+    width: 100%;
+    height: 500px; 
+}
+
+
+
+#propaganda{
+    
+    color: #181A1B;
+    
+    font-size: 25px;
+    text-align: center;
+   
+}
+.container-propaganda{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+#propaganda p{
+    
+}
+
+
+
+#propaganda img{
+    width: 300px;
+    padding-top: 40px;
+    border-radius: 50%;
+    
+   
+}
+
+/* seção cardapio ------------------------*/
+
+#cardapio{
+    padding: 40px;
+    width: 100%;
+}
+
+#cardapio h2{
+    text-align: center;
+    color: #ecd6d6;
+    padding-bottom: 45px;
+    font-size: 37px;
+   
+}
+
+.container-menu{
+    display: flex;                  /*39 */
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    border: 4px solid rgb(5, 146, 17);
+    
+    
+}
+
+.menu-item{
+    width: 33%;
+    border: 3px solid white;
+}
+
+
+
+
+#cardapio .menu-item span{
+    color: rgb(3, 3, 3);
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+
+.menu-item img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*section galeria */
+
+#galeria{
+    
+    
+}
+
+.galeria-imagens{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+#galeria h1{
+    color: #000000;
+    text-align: center;
+}
+
+
+
+
+.galeria-imagens img{
+    display: block;
+    width: 33%;
+    margin-top: 30px;
+    
+    
+    
+}
+
+
+/*seção sobre */
+
+#sobre{
+   
+    padding: 40px;
+    border-bottom: 1px solid rgb(71, 68, 68);
+    
+}
+#sobre h1{ 
+    text-align: center;
+    color: rgb(2, 2, 2);
+    padding-bottom: 10px;
+    font-size: 37px;
+    
+}
+
+.sobre-txt{
+    margin: 0 auto;
+    width: 60%;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*Contato---------------*/
+
+#contato{
+    padding: 40px;
+}
+
+.formulario h2{
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-size: 37px;
+}
+
+
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 1px solid black;
+  margin: 0 auto;
+    
+}
+
+/*--------footer*/
+footer{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+   
+
