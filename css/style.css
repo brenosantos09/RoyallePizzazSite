@@ -126,10 +126,7 @@ nav ul li a:hover{
 /*----seçao cardapio------*/
 
 
-.btn-menu{
-    border: 2px solid black;
-    
-}
+
 
 
 
@@ -174,27 +171,7 @@ nav ul li a:hover{
 
 /*area de contato -----------*/
 
-#contato{
-    padding: 40px;
-}
 
-.formulario h2{
-    color: rgb(8, 8, 8);
-    text-align: center;
-    font-size: 37px;
-}
-
-
-
-
-form{
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  border: 1px solid black;
-  margin: 0 auto;
-    
-}
 
 /*--------footer*/
 footer{
