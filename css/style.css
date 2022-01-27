@@ -21,17 +21,17 @@ header{
 }
 .material-icons {
     text-decoration: none;
-    color: rgb(41, 37, 37);
+    color: #FFFFFF;
     font-size: 45px;
    
 }
 
 header span{
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 .material-icons:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
      transform: scale(1.5);
      transition: 0.3s;
 }
@@ -45,6 +45,7 @@ header span{
 .logo p{
     font-size: 25px;
     padding-left: 10px;
+    color: #FFFFFF;
    
    
 }
@@ -108,15 +109,18 @@ nav ul li a{
     font-size: 20px;
     display: block;
     padding: 0 20px;
-    color: rgb(2, 2, 2);  
+    color: #FFFFFF;  
     
 }
 
 nav ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
     transition: 0.2s;
 }
 /*seção propaganda----------------*/
+.menu-propaganda{
+    color: #FFFFFF;
+}
 
 .imagem-propaganda{
     width: 300px;
@@ -125,6 +129,9 @@ nav ul li a:hover{
 
 /*----seçao cardapio------*/
 
+.menu-text{
+    color: #FFFFFF;
+}
 
 
 
