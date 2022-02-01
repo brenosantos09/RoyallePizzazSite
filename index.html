@@ -64,11 +64,27 @@
       </nav>
     
     <section id="banner-slider">
-           <img src="imagens/banner.jpg" alt=""> 
-           <div class="texto">
-               <h1>Heading</h1>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-           </div> 
+           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active imgBG1">
+                <img src="" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgBG2" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="" class="d-block w-100 imgBG3" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
 
    <!--área propaganda-->
@@ -76,113 +92,175 @@
         <h1 class="menu-propaganda text-center">Ofertas Especiais</h1>
         <div class="container">
           <div class="row">  
-            <div class="col-md-4 col-12 ">
+            <div class="col-md-4 col-12">
                 <img src="imagens/pizza1.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
-                <p class="menu-propaganda text-center p-4">Sabor Calabresa</p>
+                <p class="menu-propaganda text-center p-4 fs-3">Sabor Calabresa</p>
             </div>
             <div class="col-md-4 col-12">
                 <img src="imagens/pizza2.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
-                <p class="menu-propaganda text-center p-4">Pizza Vegana</p>
+                <p class="menu-propaganda text-center p-4 fs-3">Pizza Vegana</p>
             </div>
             <div class="col-md-4 col-12">
                 <img src="imagens/pizza3.jpg" alt="" class="img-fluid rounded-circle imagem-propaganda">
-                <p class="menu-propaganda text-center p-4">Pizza Portuguesa</p>
+                <p class="menu-propaganda text-center p-4 fs-3">Pizza Portuguesa</p>
             </div>
           </div>
         </div>
-            <p class="menu-propaganda text-center">Ver mais</p>
+           
     </section>
     <!--fim área propaganda--> 
     
     <!--área cardápio-->
-    <section id="cardapio" class="container-fluid bg-red">
-        <h2 class="text-center menu-text p-5">Nosso Cardápio</h2>
+    <section id="cardapio" class="container bg-red">
+        <h2 class="text-center menu-text p-5 fs-1">Nosso Cardápio</h2>
         <div class="row">
-            <div class="col-md-3 col-12 p-2">
-                <img src="imagens/imagem1.png" alt="" class="card-img-top img-fluid" style="width: 100%;">
-                <div class="card-body">
-                    <h5 class="menu-text text-center">Título</h5>
-                    <p class="menu-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <div class="col-md-2 col-12 p-2 mx-3">
+                <img src="imagens/imagem1.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <span class="menu-text text-center">R$ 30,00</span>
-                    <a href="##" class="btn btn-dark">Adicionar ao carrinho</a>
-                </div>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
             </div>
-            <div class="col-md-3 col-12 p-2">
-                <img src="imagens/imagem2.png" alt="" class="card-img-top img-fluid" style="width: 100%;">
-                <div class="card-body">
-                    <h5 class="menu-text text-center">Título</h5>
-                    <p class="menu-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+            <div class="col-md-2 col-12 p-2 mx-3">
+                <img src="imagens/imagem2.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <span class="menu-text text-center">R$ 30,00</span>
-                    <a href="##" class="btn btn-dark">Adicionar ao carrinho</a>
-                </div>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
             </div>
-            <div class="col-md-3 col-12 p-2">
-                <img src="imagens/imagem3.png" alt="" class="card-img-top img-fluid" style="width: 100%;">
-                <div class="card-body">
-                    <h5 class="menu-text text-center">Título</h5>
-                    <p class="menu-text text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+            <div class="col-md-2 col-12 p-2 mx-3">
+                <img src="imagens/imagem3.png" alt="" class="card-img-top img-fluid">
+                    <h5 class="menu-text text-center py-3">Título</h5>
+                    <p class="menu-text text-center fs-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                     <span class="menu-text text-center">R$ 30,00</span>
-                    <a href="##" class="btn btn-dark">Adicionar ao carrinho</a>
-                </div>
+                    <input type="number" step="1" min="0" max="10" value="0" class="col-12">
+                    <button type="button" class="btn btn-dark col-12">Comprar</button>
             </div>
-            <!-- 4 19-->
+
+          
+            <!-- 419-->
         </div>   
     </section>
   <!--fim área cardápio-->
 
     <!--área galeria-->
-    <section id="galeria" class="bg-dark container-fluid">
-        <h1 class="text-center p-5">Galeria</h1>
+    <section id="galeria" class="bg-black">
+        <div class="container-fluid p-5">
           <div class="row">
-              <div class="col-4">
+            <div class="col-12 col-md-4">
                   <img src="imagens/img-galeria1.jpg" alt="" >
               </div>
-              <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="imagens/img-galeria2.jpg" alt="" >
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="imagens/img-galeria3.jpg" alt="" >
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="imagens/img-galeria4.jpg" alt="" >
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="imagens/img-galeria5.jpg" alt="" >
             </div>
-            <div class="col-4">
-                <img src="imagens/img-galeria6.jpg" alt="" >
+            <div class="col-12 col-md-4">
+                <img src="imagens/img-galeria2.jpg" alt="" >
             </div>
-        </div>    
+            
+            
+        </div>
+    </div>    
     </section>
    <!--fim área galeria-->
 
     <!--área sobre-->
-    <section id="sobre">
-        <h1>Sobre Nós</h1>
-        <div class="sobre-txt">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ea eum, reiciendis facere itaque quas ratione laudantium ad debitis cupiditate quis quam voluptas, voluptate maxime illo culpa? Fugiat, soluta dolorem.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ea eum, reiciendis facere itaque quas ratione laudantium ad debitis cupiditate quis quam voluptas, voluptate maxime illo culpa? Fugiat, soluta dolorem.</p>
-    </div>
+    <section id="sobre" class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="about-us-txt col-6 m-auto">
+                    <h2 class="text-center p-4 fs-1">Sobre Nós</h2>
+                    <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat eligendi suscipit voluptatem maxime, ducimus consequatur illum perspiciatis, magni eum ad cupiditate deleniti reiciendis deserunt quaerat Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cum debitis quasi iure iste minima facere pariatur, ab harum corporis.</p>
+                </div>
+                <h2 class="text-center pt-5 fs-2">Nosso Time</h2>
+                <div class="col-6 col-md-3 p-3">
+                    <img src="imagens/chef-1.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="imagens/chef-2.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="imagens/chef-3.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="col-6 col-md-3 p-3">
+                    <img src="imagens/chef-4.jpg" alt="">
+                    <h2>Chef</h2>
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!--fim área sobre-->
 
     <!--área do contato----------------->
-   
+        <section id="contato">
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-md-12 col-12 areaMap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.04890141165!2d-46.875499869998976!3d-23.681531440024322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-PT!2sbr!4v1643416886303!5m2!1spt-PT!2sbr" width="98%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <h2>Contate-nos</h2>
+                    <form class="" action="">
+                        <div class="pt-4">
+                            <input type="text" name="" id="" size="40" placeholder="Nome">
+                        </div>
+                        <div class="pt-4">
+                            <input type="email" name="" id="" size="40" placeholder="E-mail">
+                        </div>
+                        <div class="pt-4">
+                            <input type="text" name="" id="" size="40" placeholder="Assunto">
+                        </div>
+                        <div class="pt-4">
+                            <textarea name="" id="" cols="40" rows="10" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button class="mt-4 btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+
+                
+            </div>
+        </section>
+       
     <!--fim área contato-->
 
    <footer>
-       <div class="txt-footer">
-          <h2>Royalle Pizzaz</h2>
-          <p>Lorem ipsum dolor sit amet consm.</p>
-        </div>
-        <div class="hr-atendimento">
-            <h2>Horário de Atendimento</h2>
-            <p>Segunda a Sexta - 9h as 11h</p>
-        </div>
-        <div class="fm-pagamento">
-            <h2>Formas de Pagamento</h2>
-            <img src="imagens/pagamento.jpg" alt="">
-        </div>
+    <div class="container-fluid ">
+        <div class="row">
+           <div class="txt-footer col-md-4 col-12 p-4">
+              <h2>Royalle Pizzaz</h2>
+              <p>Lorem ipsum dolor sit amet consm.</p>
+            </div>
+           <div class="hr-atendimento col-md-4 col-12 p-4">
+             <h2>Horário de Atendimento</h2>
+             <p>Segunda a Sexta - 9h as 11h</p>
+           </div>
+           <div class="fm-pagamento col-md-4 col-12 p-4">
+             <h2>Formas de Pagamento</h2>
+             <img src="imagens/pagamento.jpg" alt="">
+           </div>
+       </div>
+    </div>
    </footer>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
