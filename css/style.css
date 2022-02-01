@@ -66,47 +66,22 @@ header span{
 
 /*section--------*/
 
-#banner-slider img{
-   width: 100%;
-   height: 450px;
-     
-}
-/*
+
+
 .imgBG1, .imgBG2, .imgBG3{
-
     background-size: cover;
-
     background-position: center;
-
     min-height: 500px;
-
 }
-
-
-
-.imgBG1 { background-image: url(../img/produtos/p1.jpg);}
-
-
-
-.imgBG2 { background-image: url(../img/produtos/produto02.jpg);}
-
-
-
-.imgBG3 { background-image: url(../img/produtos/p3.jpg);}
-
-#banner-slider{
-    position: relative;
-    color: white;
+.imgBG1{
+    background-image: url(../imagens/banner1.jpg);
 }
-*/
-.texto{
-    position: absolute;
-    top: 50px;
-    right: 16px;
+.imgBG2{
+    background-image: url(../imagens/banner2.jpg);
 }
-
-
-
+.imgBG3{
+    background-image: url(../imagens/banner3.jpg);
+}
 
 
 /*navegacao header*/
@@ -188,7 +163,6 @@ nav ul li a:hover{
 /*--------footer*/
 footer{
     border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
