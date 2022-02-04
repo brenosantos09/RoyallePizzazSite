@@ -4,7 +4,7 @@
 body{
     
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 
@@ -114,6 +114,12 @@ nav ul li a:hover{
     color: rgb(8, 8, 8);
     transition: 0.2s;
 }
+
+nav .nav-link:hover{
+    background-color: rgb(206, 87, 87);
+    border-radius: 3px;
+}
+
 /*seção propaganda----------------*/
 .menu-propaganda{
     color: #000000;
@@ -163,6 +169,31 @@ nav ul li a:hover{
 /*--------footer*/
 footer{
     border: 1px solid black;
+    font-size: 0.9em;
+    background-color: #121619;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer li, a, h4{
+    color: #FFFFFF;
+}
+
+footer h4 {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.noLink{
+    text-decoration: none;
+    color: inherit;
+}
+
+.listLink{
+    text-decoration: none;
+    list-style: none;
     
 }
 
